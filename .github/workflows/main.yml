@@ -15,7 +15,7 @@ jobs:
       - name: Build Docker image
         run: docker build -t farazgulofficial/mywork:latest .
       - name: Publish image to Docker Hub
-        run: docker push ali769/webproject:latest
+        run: docker push farazgulofficial/mywork:latest
 
   deploy:
     needs: build
